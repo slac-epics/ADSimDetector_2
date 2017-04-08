@@ -4,6 +4,9 @@
 #
 #==============================================================
 
+R2.4-0.1.1		2017-Apr-08 Bruce Hill
+	Updated to ADCore/R2.6-0.2.0
+
 R2.4-0.1.0		2017-Apr-04 Bruce Hill
 	Updated build files for git module work-flow
 
