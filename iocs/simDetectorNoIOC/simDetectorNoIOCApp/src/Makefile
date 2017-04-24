@@ -23,9 +23,7 @@ PROD_LIBS += simDetector
 
 include $(ADCORE)/ADApp/commonDriverMakefile
 
-USR_INCLUDES += $(HDF5_INCLUDE)
-USR_INCLUDES += $(SZ_INCLUDE)
-USR_INCLUDES += $(XML2_INCLUDE)
+PROD_LIBS += hdf5 xml2 szip zlib
 
 #=============================
 

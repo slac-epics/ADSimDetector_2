@@ -3,6 +3,11 @@
 #  Name: RELEASE_NOTES
 #
 #==============================================================
+R2.4-1.0.0      2017-Apr-24 Hugo Slepicka
+    Updated to ADCore/R2.6-1.0.0
+    Building the example IOCs
+        - Fixed bug with NDPluginStdArrays parameters
+            This will not be necessary when the next version of ADCore is release.
 
 R2.4-0.1.2		2017-Apr-21 Bruce Hill
 	Updated to ADCore/R2.6-0.3.0
