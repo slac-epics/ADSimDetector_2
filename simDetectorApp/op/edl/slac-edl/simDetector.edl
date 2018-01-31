@@ -128,11 +128,11 @@ font "helvetica-bold-r-12.0"
 fontAlign "center"
 endObjectProperties
 
-# (Textentry)
-object TextentryClass
+# (Text Control)
+object activeXTextDspClass
 beginObjectProperties
-major 10
-minor 0
+major 4
+minor 5
 release 0
 x 70
 y 495
@@ -141,8 +141,16 @@ h 20
 controlPv "$(P)$(R)GainX"
 fgColor index 25
 fgAlarm
-bgColor index 3
-fill
+bgColor index 5
+editable
+motifWidget
+fgAlarm
+limitsFromDb
+nullColor index 40
+smartRefresh
+useHexPrefix
+newPos
+fontAlign "center"
 font "helvetica-bold-r-12.0"
 endObjectProperties
 
@@ -184,11 +192,11 @@ value {
 }
 endObjectProperties
 
-# (Textentry)
-object TextentryClass
+# (Text Control)
+object activeXTextDspClass
 beginObjectProperties
-major 10
-minor 0
+major 4
+minor 5
 release 0
 x 70
 y 525
@@ -197,8 +205,16 @@ h 20
 controlPv "$(P)$(R)GainY"
 fgColor index 25
 fgAlarm
-bgColor index 3
-fill
+bgColor index 5
+editable
+motifWidget
+fgAlarm
+limitsFromDb
+nullColor index 40
+smartRefresh
+useHexPrefix
+newPos
+fontAlign "center"
 font "helvetica-bold-r-12.0"
 endObjectProperties
 
@@ -240,11 +256,11 @@ value {
 }
 endObjectProperties
 
-# (Textentry)
-object TextentryClass
+# (Text Control)
+object activeXTextDspClass
 beginObjectProperties
-major 10
-minor 0
+major 4
+minor 5
 release 0
 x 70
 y 555
@@ -253,8 +269,16 @@ h 20
 controlPv "$(P)$(R)Gain"
 fgColor index 25
 fgAlarm
-bgColor index 3
-fill
+bgColor index 5
+editable
+motifWidget
+fgAlarm
+limitsFromDb
+nullColor index 40
+smartRefresh
+useHexPrefix
+newPos
+fontAlign "center"
 font "helvetica-bold-r-12.0"
 endObjectProperties
 
@@ -296,11 +320,11 @@ value {
 }
 endObjectProperties
 
-# (Textentry)
-object TextentryClass
+# (Text Control)
+object activeXTextDspClass
 beginObjectProperties
-major 10
-minor 0
+major 4
+minor 5
 release 0
 x 70
 y 585
@@ -309,8 +333,16 @@ h 20
 controlPv "$(P)$(R)GainRed"
 fgColor index 25
 fgAlarm
-bgColor index 3
-fill
+bgColor index 5
+editable
+motifWidget
+fgAlarm
+limitsFromDb
+nullColor index 40
+smartRefresh
+useHexPrefix
+newPos
+fontAlign "center"
 font "helvetica-bold-r-12.0"
 endObjectProperties
 
@@ -352,11 +384,11 @@ value {
 }
 endObjectProperties
 
-# (Textentry)
-object TextentryClass
+# (Text Control)
+object activeXTextDspClass
 beginObjectProperties
-major 10
-minor 0
+major 4
+minor 5
 release 0
 x 70
 y 615
@@ -365,8 +397,16 @@ h 20
 controlPv "$(P)$(R)GainGreen"
 fgColor index 25
 fgAlarm
-bgColor index 3
-fill
+bgColor index 5
+editable
+motifWidget
+fgAlarm
+limitsFromDb
+nullColor index 40
+smartRefresh
+useHexPrefix
+newPos
+fontAlign "center"
 font "helvetica-bold-r-12.0"
 endObjectProperties
 
@@ -408,11 +448,11 @@ value {
 }
 endObjectProperties
 
-# (Textentry)
-object TextentryClass
+# (Text Control)
+object activeXTextDspClass
 beginObjectProperties
-major 10
-minor 0
+major 4
+minor 5
 release 0
 x 70
 y 645
@@ -421,8 +461,16 @@ h 20
 controlPv "$(P)$(R)GainBlue"
 fgColor index 25
 fgAlarm
-bgColor index 3
-fill
+bgColor index 5
+editable
+motifWidget
+fgAlarm
+limitsFromDb
+nullColor index 40
+smartRefresh
+useHexPrefix
+newPos
+fontAlign "center"
 font "helvetica-bold-r-12.0"
 endObjectProperties
 
