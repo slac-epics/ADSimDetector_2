@@ -120,7 +120,7 @@ y 495
 w 55
 h 20
 controlPv "$(P)$(R)GainX_RBV"
-fgColor index 16
+fgColor index 15
 fgAlarm
 bgColor index 12
 objType "monitors"
@@ -131,7 +131,7 @@ smartRefresh
 useHexPrefix
 newPos
 fontAlign "center"
-font "helvetica-bold-r-12.0"
+font "helvetica-medium-r-12.0"
 fontAlign "center"
 endObjectProperties
 
@@ -158,7 +158,7 @@ smartRefresh
 useHexPrefix
 newPos
 fontAlign "center"
-font "helvetica-bold-r-12.0"
+font "helvetica-medium-r-12.0"
 endObjectProperties
 
 # (Static Text)
@@ -222,7 +222,7 @@ smartRefresh
 useHexPrefix
 newPos
 fontAlign "center"
-font "helvetica-bold-r-12.0"
+font "helvetica-medium-r-12.0"
 endObjectProperties
 
 # (Text Monitor)
@@ -236,7 +236,7 @@ y 525
 w 55
 h 20
 controlPv "$(P)$(R)GainY_RBV"
-fgColor index 16
+fgColor index 15
 fgAlarm
 bgColor index 12
 objType "monitors"
@@ -247,7 +247,7 @@ smartRefresh
 useHexPrefix
 newPos
 fontAlign "center"
-font "helvetica-bold-r-12.0"
+font "helvetica-medium-r-12.0"
 fontAlign "center"
 endObjectProperties
 
@@ -293,7 +293,7 @@ smartRefresh
 useHexPrefix
 newPos
 fontAlign "center"
-font "helvetica-bold-r-12.0"
+font "helvetica-medium-r-12.0"
 endObjectProperties
 
 # (Text Monitor)
@@ -307,7 +307,7 @@ y 555
 w 55
 h 20
 controlPv "$(P)$(R)Gain_RBV"
-fgColor index 16
+fgColor index 15
 fgAlarm
 bgColor index 12
 objType "monitors"
@@ -318,7 +318,7 @@ smartRefresh
 useHexPrefix
 newPos
 fontAlign "center"
-font "helvetica-bold-r-12.0"
+font "helvetica-medium-r-12.0"
 fontAlign "center"
 endObjectProperties
 
@@ -364,7 +364,7 @@ smartRefresh
 useHexPrefix
 newPos
 fontAlign "center"
-font "helvetica-bold-r-12.0"
+font "helvetica-medium-r-12.0"
 endObjectProperties
 
 # (Text Monitor)
@@ -378,7 +378,7 @@ y 585
 w 55
 h 20
 controlPv "$(P)$(R)GainRed_RBV"
-fgColor index 16
+fgColor index 15
 fgAlarm
 bgColor index 12
 objType "monitors"
@@ -389,7 +389,7 @@ smartRefresh
 useHexPrefix
 newPos
 fontAlign "center"
-font "helvetica-bold-r-12.0"
+font "helvetica-medium-r-12.0"
 fontAlign "center"
 endObjectProperties
 
@@ -435,7 +435,7 @@ smartRefresh
 useHexPrefix
 newPos
 fontAlign "center"
-font "helvetica-bold-r-12.0"
+font "helvetica-medium-r-12.0"
 endObjectProperties
 
 # (Text Monitor)
@@ -449,7 +449,7 @@ y 615
 w 55
 h 20
 controlPv "$(P)$(R)GainGreen_RBV"
-fgColor index 16
+fgColor index 15
 fgAlarm
 bgColor index 12
 objType "monitors"
@@ -460,7 +460,7 @@ smartRefresh
 useHexPrefix
 newPos
 fontAlign "center"
-font "helvetica-bold-r-12.0"
+font "helvetica-medium-r-12.0"
 fontAlign "center"
 endObjectProperties
 
@@ -506,7 +506,7 @@ smartRefresh
 useHexPrefix
 newPos
 fontAlign "center"
-font "helvetica-bold-r-12.0"
+font "helvetica-medium-r-12.0"
 endObjectProperties
 
 # (Text Monitor)
@@ -520,7 +520,7 @@ y 645
 w 55
 h 20
 controlPv "$(P)$(R)GainBlue_RBV"
-fgColor index 16
+fgColor index 15
 fgAlarm
 bgColor index 12
 objType "monitors"
@@ -531,7 +531,7 @@ smartRefresh
 useHexPrefix
 newPos
 fontAlign "center"
-font "helvetica-bold-r-12.0"
+font "helvetica-medium-r-12.0"
 fontAlign "center"
 endObjectProperties
 
