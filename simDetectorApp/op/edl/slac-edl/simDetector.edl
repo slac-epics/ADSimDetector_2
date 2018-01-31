@@ -573,11 +573,11 @@ bgColor index 3
 topShadowColor index 1
 botShadowColor index 11
 displaySource "file"
-file "ADBase"
+file "areaDetectorScreens/ADBase.edl"
 sizeOfs 5
 numDsps 1
 displayFileName {
-  0 "NDPluginBase"
+  0 "areaDetectorScreens/NDPluginBase.edl"
 }
 noScroll
 endObjectProperties
