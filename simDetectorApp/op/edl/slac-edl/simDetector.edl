@@ -109,11 +109,11 @@ autoSize
 border
 endObjectProperties
 
-# (Textupdate)
-object TextupdateClass
+# (Text Monitor)
+object activeXTextDspClass:noedit
 beginObjectProperties
-major 10
-minor 0
+major 4
+minor 5
 release 0
 x 130
 y 495
@@ -122,8 +122,15 @@ h 20
 controlPv "$(P)$(R)GainX_RBV"
 fgColor index 16
 fgAlarm
-bgColor index 10
-fill
+bgColor index 12
+objType "monitors"
+fgAlarm
+limitsFromDb
+nullColor index 40
+smartRefresh
+useHexPrefix
+newPos
+fontAlign "center"
 font "helvetica-bold-r-12.0"
 fontAlign "center"
 endObjectProperties
@@ -218,11 +225,11 @@ fontAlign "center"
 font "helvetica-bold-r-12.0"
 endObjectProperties
 
-# (Textupdate)
-object TextupdateClass
+# (Text Monitor)
+object activeXTextDspClass:noedit
 beginObjectProperties
-major 10
-minor 0
+major 4
+minor 5
 release 0
 x 130
 y 525
@@ -231,8 +238,15 @@ h 20
 controlPv "$(P)$(R)GainY_RBV"
 fgColor index 16
 fgAlarm
-bgColor index 10
-fill
+bgColor index 12
+objType "monitors"
+fgAlarm
+limitsFromDb
+nullColor index 40
+smartRefresh
+useHexPrefix
+newPos
+fontAlign "center"
 font "helvetica-bold-r-12.0"
 fontAlign "center"
 endObjectProperties
@@ -282,11 +296,11 @@ fontAlign "center"
 font "helvetica-bold-r-12.0"
 endObjectProperties
 
-# (Textupdate)
-object TextupdateClass
+# (Text Monitor)
+object activeXTextDspClass:noedit
 beginObjectProperties
-major 10
-minor 0
+major 4
+minor 5
 release 0
 x 130
 y 555
@@ -295,8 +309,15 @@ h 20
 controlPv "$(P)$(R)Gain_RBV"
 fgColor index 16
 fgAlarm
-bgColor index 10
-fill
+bgColor index 12
+objType "monitors"
+fgAlarm
+limitsFromDb
+nullColor index 40
+smartRefresh
+useHexPrefix
+newPos
+fontAlign "center"
 font "helvetica-bold-r-12.0"
 fontAlign "center"
 endObjectProperties
@@ -346,11 +367,11 @@ fontAlign "center"
 font "helvetica-bold-r-12.0"
 endObjectProperties
 
-# (Textupdate)
-object TextupdateClass
+# (Text Monitor)
+object activeXTextDspClass:noedit
 beginObjectProperties
-major 10
-minor 0
+major 4
+minor 5
 release 0
 x 130
 y 585
@@ -359,8 +380,15 @@ h 20
 controlPv "$(P)$(R)GainRed_RBV"
 fgColor index 16
 fgAlarm
-bgColor index 10
-fill
+bgColor index 12
+objType "monitors"
+fgAlarm
+limitsFromDb
+nullColor index 40
+smartRefresh
+useHexPrefix
+newPos
+fontAlign "center"
 font "helvetica-bold-r-12.0"
 fontAlign "center"
 endObjectProperties
@@ -410,11 +438,11 @@ fontAlign "center"
 font "helvetica-bold-r-12.0"
 endObjectProperties
 
-# (Textupdate)
-object TextupdateClass
+# (Text Monitor)
+object activeXTextDspClass:noedit
 beginObjectProperties
-major 10
-minor 0
+major 4
+minor 5
 release 0
 x 130
 y 615
@@ -423,8 +451,15 @@ h 20
 controlPv "$(P)$(R)GainGreen_RBV"
 fgColor index 16
 fgAlarm
-bgColor index 10
-fill
+bgColor index 12
+objType "monitors"
+fgAlarm
+limitsFromDb
+nullColor index 40
+smartRefresh
+useHexPrefix
+newPos
+fontAlign "center"
 font "helvetica-bold-r-12.0"
 fontAlign "center"
 endObjectProperties
@@ -474,11 +509,11 @@ fontAlign "center"
 font "helvetica-bold-r-12.0"
 endObjectProperties
 
-# (Textupdate)
-object TextupdateClass
+# (Text Monitor)
+object activeXTextDspClass:noedit
 beginObjectProperties
-major 10
-minor 0
+major 4
+minor 5
 release 0
 x 130
 y 645
@@ -487,8 +522,15 @@ h 20
 controlPv "$(P)$(R)GainBlue_RBV"
 fgColor index 16
 fgAlarm
-bgColor index 10
-fill
+bgColor index 12
+objType "monitors"
+fgAlarm
+limitsFromDb
+nullColor index 40
+smartRefresh
+useHexPrefix
+newPos
+fontAlign "center"
 font "helvetica-bold-r-12.0"
 fontAlign "center"
 endObjectProperties
