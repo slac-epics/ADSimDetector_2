@@ -1,235 +1,139 @@
 4 0 1
 beginScreenProperties
-h 927
 major 4
 minor 0
 release 1
-w 412
-x 0
-y 0
-bgColor index 3
-botShadowColor index 11
+x 639
+y 129
+w 423
+h 947
+font "helvetica-medium-r-14.0"
+ctlFont "helvetica-bold-r-14.0"
 btnFont "helvetica-bold-r-14.0"
-ctlBgColor1 index 3
-ctlBgColor2 index 14
+fgColor index 14
+bgColor index 3
+textColor index 14
 ctlFgColor1 index 25
 ctlFgColor2 index 0
-ctlFont "helvetica-bold-r-14.0"
-fgColor index 14
-font "helvetica-medium-r-14.0"
+ctlBgColor1 index 3
+ctlBgColor2 index 14
+topShadowColor index 1
+botShadowColor index 11
+title "Device - CAM1"
 showGrid
 snapToGrid
-textColor index 14
-title "Device - CAM1"
-topShadowColor index 1
+gridSize 4
 endScreenProperties
 
 # (Group)
 object activeGroupClass
 beginObjectProperties
-h 30
 major 4
 minor 0
 release 0
-w 412
-x 0
-y 0
-
-
-beginGroup
-
-# (Rectangle)
-object activeRectangleClass
-beginObjectProperties
-h 25
-major 4
-minor 0
-release 0
-w 410
-x 0
-y 2
-fillColor index 0
-lineColor index 1
-endObjectProperties
-
-# (Rectangle)
-object activeRectangleClass
-beginObjectProperties
-h 25
-major 4
-minor 0
-release 0
-w 410
-x 1
-y 3
-fillColor index 0
-lineColor index 11
-endObjectProperties
-
-# (Related Display)
-object relatedDisplayClass
-beginObjectProperties
-h 24
-major 4
-minor 2
-release 0
-w 410
-x 1
-y 3
-bgColor index 3
-botShadowColor index 0
-button3Popup
-buttonLabel "tooltip"
-displayFileName {
-  0 "areaDetectorScreens/generic-tooltip.edl"
-}
-fgColor index 14
-font "helvetica-bold-r-14.0"
-invisible
-numDsps 1
-numPvs 4
-setPosition {
-  0 "button"
-}
-topShadowColor index 0
-xPosOffset 5
-yPosOffset 5
-endObjectProperties
-
-# (Static Text)
-object activeXTextClass
-beginObjectProperties
-h 25
-major 4
-minor 1
-release 0
-w 452
-x 1
-y 3
-bgColor index 48
-fgColor index 14
-font "helvetica-bold-r-16.0"
-fontAlign "center"
-value {
-  "CAM1 Top"
-}
-endObjectProperties
-
-endGroup
-
-
-endObjectProperties
-
-# (Group)
-object activeGroupClass
-beginObjectProperties
-h 847
-major 4
-minor 0
-release 0
-w 392
-x 10
+x 12
 y 40
-
+w 400
+h 868
 
 beginGroup
 
 # (Choice Button)
 object activeChoiceButtonClass
 beginObjectProperties
-h 25
 major 4
 minor 0
 release 0
-w 391
 x 10
 y 40
+w 399
+h 26
+fgColor index 14
 bgColor index 3
+selectColor index 4
+inconsistentColor index 0
+topShadowColor index 1
 botShadowColor index 11
 controlPv "LOC\\$(!W)tab=e:0,CAM,STAT,PROC,ARR,HDF"
-fgColor index 14
 font "helvetica-bold-r-12.0"
-inconsistentColor index 0
 orientation "horizontal"
-selectColor index 4
-topShadowColor index 1
 endObjectProperties
 
 # (Lines)
 object activeLineClass
 beginObjectProperties
-h 821
 major 4
 minor 0
 release 1
-w 392
 x 10
-y 66
-fillColor index 0
+y 67
+w 400
+h 840
 lineColor index 1
+fillColor index 0
 numPoints 3
 xPoints {
   0 10
-  1 402
-  2 402
+  1 410
+  2 410
 }
 yPoints {
-  0 887
-  1 887
-  2 66
+  0 907
+  1 907
+  2 67
 }
 endObjectProperties
 
 # (Lines)
 object activeLineClass
 beginObjectProperties
-h 821
 major 4
 minor 0
 release 1
-w 392
 x 10
-y 66
-fillColor index 0
+y 67
+w 400
+h 840
 lineColor index 11
+fillColor index 0
 numPoints 3
 xPoints {
   0 10
   1 10
-  2 402
+  2 410
 }
 yPoints {
-  0 887
-  1 66
-  2 66
+  0 907
+  1 67
+  2 67
 }
 endObjectProperties
 
 # (Embedded Window)
 object activePipClass
 beginObjectProperties
-h 820
 major 4
 minor 1
 release 0
-w 390
 x 11
-y 66
+y 67
+w 398
+h 839
+fgColor index 14
 bgColor index 3
+topShadowColor index 0
 botShadowColor index 0
+displaySource "menu"
+filePv "LOC\\$(!W)tab"
+sizeOfs 5
+numDsps 5
 displayFileName {
-  0 "areaDetectorScreens/simDetector.edl"
+  0 "ADSimDetectorScreens/simDetector.edl"
   1 "areaDetectorScreens/NDStats.edl"
   2 "areaDetectorScreens/NDProcess.edl"
   3 "areaDetectorScreens/NDStdArrays.edl"
   4 "areaDetectorScreens/NDFileHDF5.edl"
 }
-displaySource "menu"
-fgColor index 14
-filePv "LOC\\$(!W)tab"
-noScroll
-numDsps 5
-sizeOfs 5
 symbols {
   0 "P=TESTSIMDETECTOR,R=:CAM:,label=CAM"
   1 "P=TESTSIMDETECTOR,R=:STAT:,label=STAT"
@@ -237,104 +141,151 @@ symbols {
   3 "P=TESTSIMDETECTOR,R=:ARR:,label=ARR"
   4 "P=TESTSIMDETECTOR,R=:HDF:,label=HDF"
 }
-topShadowColor index 0
+noScroll
 endObjectProperties
 
 endGroup
 
+endObjectProperties
 
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 1
+y 3
+w 410
+h 24
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 0
+font "helvetica-bold-r-14.0"
+xPosOffset 5
+yPosOffset 5
+button3Popup
+invisible
+buttonLabel "tooltip"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "areaDetectorScreens/generic-tooltip.edl"
+}
+setPosition {
+  0 "button"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 1
+y 3
+w 452
+h 25
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 48
+value {
+  "CAM1 Top"
+}
 endObjectProperties
 
 # (Group)
 object activeGroupClass
 beginObjectProperties
-h 30
 major 4
 minor 0
 release 0
-w 50
 x 0
 y 0
-
+w 50
+h 30
 
 beginGroup
 
 # (Circle)
 object activeCircleClass
 beginObjectProperties
-h 29
 major 4
 minor 0
 release 0
-w 48
 x 0
 y 0
-fillColor index 0
-lineColor index 1
-lineWidth 2
-endObjectProperties
-
-# (Circle)
-object activeCircleClass
-beginObjectProperties
-h 29
-major 4
-minor 0
-release 0
 w 48
-x 2
-y 2
+h 29
+lineColor index 1
 fillColor index 0
-lineColor index 11
 lineWidth 2
 endObjectProperties
 
 # (Circle)
 object activeCircleClass
 beginObjectProperties
-h 27
 major 4
 minor 0
 release 0
-w 47
 x 2
 y 2
+w 48
+h 29
+lineColor index 11
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 2
+y 2
+w 47
+h 27
+lineColor index 49
 fill
 fillColor index 48
-lineColor index 49
 lineWidth 3
 endObjectProperties
 
 # (Circle)
 object activeCircleClass
 beginObjectProperties
-h 3
 major 4
 minor 0
 release 0
-w 4
 x 12
 y 6
+w 4
+h 3
+lineColor index 1
 fill
 fillColor index 0
-lineColor index 1
 lineWidth 2
 endObjectProperties
 
 # (Static Text)
 object activeXTextClass
 beginObjectProperties
-h 30
 major 4
 minor 1
-release 0
-w 50
+release 1
 x 0
 y 0
-bgColor index 3
-fgColor index 14
+w 50
+h 30
 font "helvetica-bold-r-14.0"
 fontAlign "center"
+fgColor index 14
+bgColor index 3
 useDisplayBg
 value {
   "CAM1"
@@ -343,24 +294,24 @@ endObjectProperties
 
 endGroup
 
-
 endObjectProperties
 
 # (Exit Button)
 object activeExitButtonClass
 beginObjectProperties
-h 20
 major 4
 minor 1
 release 0
-w 90
-x 312
-y 897
-3d
-bgColor index 3
-botShadowColor index 11
+x 368
+y 4
+w 48
+h 20
 fgColor index 46
-font "helvetica-medium-r-16.0"
-label "EXIT"
+bgColor index 3
 topShadowColor index 1
+botShadowColor index 11
+label "EXIT"
+font "helvetica-bold-r-14.0"
+3d
 endObjectProperties
+
