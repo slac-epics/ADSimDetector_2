@@ -3,6 +3,9 @@
 #  Name: RELEASE_NOTES
 #
 #==============================================================
+R2.7-0.0.5		2018-Aug-28
+	Updated to ADCore/R3.1-2.2.0
+
 R2.7-0.0.4		2018-Mar-29
 	Updated to ADCore/R3.1-2.1.1
 	Updated ADSimDetector simTop and SimDetector.edl screens.
