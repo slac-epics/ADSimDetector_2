@@ -5,5 +5,6 @@
 ADSIMDETECTOR = $(TOP)/../..
 
 -include $(TOP)/../../../configure/RELEASE_PRODS_INCLUDE
+-include $(TOP)/../../configure/RELEASE.local
 -include $(TOP)/RELEASE.local
 -include $(TOP)/configure/RELEASE.local

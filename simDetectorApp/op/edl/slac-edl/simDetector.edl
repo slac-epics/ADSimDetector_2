@@ -1,0 +1,582 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 1448
+y 1150
+w 400
+h 324
+font "helvetica-bold-r-12.0"
+ctlFont "helvetica-bold-r-12.0"
+btnFont "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+textColor index 14
+ctlFgColor1 index 25
+ctlFgColor2 index 25
+ctlBgColor1 index 3
+ctlBgColor2 index 3
+topShadowColor index 1
+botShadowColor index 11
+showGrid
+snapToGrid
+gridSize 5
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 200
+y 240
+w 185
+h 45
+lineColor index 14
+fill
+fillColor index 3
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 20
+w 215
+h 190
+lineColor index 14
+fill
+fillColor index 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 10
+y 10
+w 48
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 5
+value {
+  "  Gains  "
+}
+autoSize
+border
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 200
+y 230
+w 77
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 5
+value {
+  "  Commands  "
+}
+autoSize
+border
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 150
+y 30
+w 65
+h 20
+controlPv "$(P)$(R)GainX_RBV"
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 15
+fgAlarm
+bgColor index 12
+limitsFromDb
+nullColor index 40
+smartRefresh
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 75
+y 30
+w 65
+h 20
+controlPv "$(P)$(R)GainX"
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 25
+fgAlarm
+bgColor index 5
+editable
+motifWidget
+limitsFromDb
+nullColor index 40
+smartRefresh
+useHexPrefix
+newPos
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 15
+y 30
+w 55
+h 20
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "X"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 15
+y 60
+w 55
+h 20
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Y"
+}
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 75
+y 60
+w 65
+h 20
+controlPv "$(P)$(R)GainY"
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 25
+fgAlarm
+bgColor index 5
+editable
+motifWidget
+limitsFromDb
+nullColor index 40
+smartRefresh
+useHexPrefix
+newPos
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 150
+y 60
+w 65
+h 20
+controlPv "$(P)$(R)GainY_RBV"
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 15
+fgAlarm
+bgColor index 12
+limitsFromDb
+nullColor index 40
+smartRefresh
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 15
+y 90
+w 55
+h 20
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Overall"
+}
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 75
+y 90
+w 65
+h 20
+controlPv "$(P)$(R)Gain"
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 25
+fgAlarm
+bgColor index 5
+editable
+motifWidget
+limitsFromDb
+nullColor index 40
+smartRefresh
+useHexPrefix
+newPos
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 150
+y 90
+w 65
+h 20
+controlPv "$(P)$(R)Gain_RBV"
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 15
+fgAlarm
+bgColor index 12
+limitsFromDb
+nullColor index 40
+smartRefresh
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 15
+y 120
+w 55
+h 20
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Red"
+}
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 75
+y 120
+w 65
+h 20
+controlPv "$(P)$(R)GainRed"
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 25
+fgAlarm
+bgColor index 5
+editable
+motifWidget
+limitsFromDb
+nullColor index 40
+smartRefresh
+useHexPrefix
+newPos
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 150
+y 120
+w 65
+h 20
+controlPv "$(P)$(R)GainRed_RBV"
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 15
+fgAlarm
+bgColor index 12
+limitsFromDb
+nullColor index 40
+smartRefresh
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 15
+y 150
+w 55
+h 20
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Green"
+}
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 75
+y 150
+w 65
+h 20
+controlPv "$(P)$(R)GainGreen"
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 25
+fgAlarm
+bgColor index 5
+editable
+motifWidget
+limitsFromDb
+nullColor index 40
+smartRefresh
+useHexPrefix
+newPos
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 150
+y 150
+w 65
+h 20
+controlPv "$(P)$(R)GainGreen_RBV"
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 15
+fgAlarm
+bgColor index 12
+limitsFromDb
+nullColor index 40
+smartRefresh
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 15
+y 180
+w 55
+h 20
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Blue"
+}
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 75
+y 180
+w 65
+h 20
+controlPv "$(P)$(R)GainBlue"
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 25
+fgAlarm
+bgColor index 5
+editable
+motifWidget
+limitsFromDb
+nullColor index 40
+smartRefresh
+useHexPrefix
+newPos
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 150
+y 180
+w 65
+h 20
+controlPv "$(P)$(R)GainBlue_RBV"
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 15
+fgAlarm
+bgColor index 12
+limitsFromDb
+nullColor index 40
+smartRefresh
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 210
+y 250
+w 165
+h 25
+fgColor index 25
+onColor index 4
+offColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "$(P)$(R)Reset"
+pressValue "1"
+onLabel "Reset Image"
+offLabel "Reset Image"
+3d
+font "helvetica-bold-r-12.0"
+endObjectProperties
+
+# (Shell Command)
+object shellCmdClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 10
+y 295
+w 380
+h 25
+fgColor index 14
+bgColor index 3
+topShadowColor index 1
+botShadowColor index 11
+font "helvetica-bold-r-12.0"
+buttonLabel "HTML Documentation"
+numCmds 1
+command {
+  0 "firefox-for-epics.sh ADSimDetectorScreens/documentation/simDetectorDoc.html &"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 15
+y 250
+w 175
+h 25
+fgColor index 14
+bgColor index 3
+topShadowColor index 2
+botShadowColor index 12
+font "helvetica-bold-r-12.0"
+buttonLabel "Simulation Setup"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "ADSimDetectorScreens/simDetectorSetup.edl"
+}
+menuLabel {
+  0 "Simulation setup"
+}
+symbols {
+  0 "P=$(P),R=$(R)"
+}
+replaceSymbols {
+  0 1
+}
+icon
+endObjectProperties
+
