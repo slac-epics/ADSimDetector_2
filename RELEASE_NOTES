@@ -3,8 +3,8 @@
 #  Name: RELEASE_NOTES
 #
 #==============================================================
-R2.7-0.0.7		2019-04-17 Bruce Hill
-	Switch firefox launcher to /reg/common/tools/bin/firefox-for-epics.sh
+R2.7-0.0.7		2019-04-18 Bruce Hill
+	Switch firefox launcher to firefox-tmp-profile.sh
 	Update slac edl files w/ access to simulation modes and settings.
 
 R2.7-0.0.6		2018-Nov-30
