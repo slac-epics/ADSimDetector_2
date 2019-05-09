@@ -3,6 +3,9 @@
 #  Name: RELEASE_NOTES
 #
 #==============================================================
+R2.8-0.0.1		2019-05-09 Bruce Hill
+	Same as R2.7-0.0.7 which was mis-tagged as it includes R2-8 updates
+
 R2.7-0.0.7		2019-04-18 Bruce Hill
 	Switch firefox launcher to firefox-tmp-profile.sh
 	Update slac edl files w/ access to simulation modes and settings.
