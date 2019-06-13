@@ -3,6 +3,9 @@
 #  Name: RELEASE_NOTES
 #
 #==============================================================
+R2.8-0.0.2		2019-06-12 Bruce Hill
+	Update to ADCore/R3.1-2.3.3
+
 R2.8-0.0.1		2019-05-09 Bruce Hill
 	Same as R2.7-0.0.7 which was mis-tagged as it includes R2-8 updates
 
