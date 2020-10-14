@@ -3,6 +3,9 @@
 #  Name: RELEASE_NOTES
 #
 #==============================================================
+R2.8-0.0.4		2020-10-14 Bruce Hill
+	Update to ADCore/R3.1-2.3.5
+
 R2.8-0.0.3		2019-07-16 Hugo Slepicka
 	Downgraded ADCore/R3.1-2.3.1
 	Downgraded asyn R4.31-0.1.0
