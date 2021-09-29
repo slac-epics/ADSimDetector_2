@@ -3,9 +3,6 @@
 #  Name: RELEASE_NOTES
 #
 #==============================================================
-R2.7-0.0.8		2021-09-29  K. Luchini 
-        Update ADCore to R3.9-1.0.1
-        Update asyn to R4.39-0.0.1
 
 R2.7-0.0.7		2019-04-17 Bruce Hill
 	Switch firefox launcher to /reg/common/tools/bin/firefox-for-epics.sh
