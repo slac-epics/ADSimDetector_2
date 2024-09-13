@@ -3,6 +3,10 @@
 #  Name: RELEASE_NOTES
 #
 #==============================================================
+R2.8-0.0.9 2024-09-13 Marcio Donadio
+        Updated to ADCore/R3.10-1.1.1
+        Updated to asyn/R4.39-1.0.2
+	
 R2.8-0.0.8 2023-02-21 Bruce Hill
 	Updated to ADCore/R3.10-1.1.0
 
