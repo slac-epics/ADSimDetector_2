@@ -3,6 +3,9 @@
 #  Name: RELEASE_NOTES
 #
 #==============================================================
+R2.8-2.0.1              2024-10-18 Jeremy Lorelli
+	Update to ADCore/R3.1-2.3.9 and asyn/R4.32-1.0.2
+
 R2.8-0.0.4		2020-10-14 Bruce Hill
 	Update to ADCore/R3.1-2.3.5
 
